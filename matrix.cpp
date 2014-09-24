@@ -35,3 +35,35 @@ Matrix::~Matrix()
     }
     delete[] Mat;
 }
+
+
+#include "matrix.h"
+
+
+Matrix::Matrix()
+{
+    this->rows = 0;
+    this->cols = 0;
+}
+
+void Matrix::print()
+{
+
+    for (unsigned l = 0; l < rows; l++){
+        for (unsigned c = 0; c < cols; c++){
+            printf("5.5%lf ", Mat[l][c]);
+        }
+        printf ("\n");
+    }
+}
+
+void Matrix::print()
+{
+
+    for (unsigned l = 0; l < rows; l++){
+        for (unsigned c = 0; c < cols; c++){
+            printf("5.5%lf ", Mat[l][c]);
+        }
+        printf ("\n");
+    }
+}
