@@ -11,6 +11,7 @@ public:
     ~Matrix();
         void print();
     void Alloc(unsigned rows, unsigned cols);
+        void add();
 };
 
 #endif // MATRIX_H
