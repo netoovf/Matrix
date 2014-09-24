@@ -8,7 +8,7 @@ class Matrix
     
 public:
     Matrix();
-    
+    void Alloc(unsigned rows, unsigned cols);
 };
 
 #endif // MATRIX_H
