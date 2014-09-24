@@ -7,6 +7,11 @@ Matrix::Matrix()
     this->cols = 0;
 }
 
+
+/*! Esta função, faz a alocação do espaço necessário na memória para o uso da matriz.
+  @param[saída] rows O número de \a linhas da matriz.
+  @param[saída] cols O número de \a colunas da matriz.
+*/
 void Matrix::Alloc(unsigned rows, unsigned cols)
 {
     try
