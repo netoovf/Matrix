@@ -8,6 +8,7 @@ class Matrix
     
 public:
     Matrix();
+    ~Matrix();
     void Alloc(unsigned rows, unsigned cols);
 };
 
