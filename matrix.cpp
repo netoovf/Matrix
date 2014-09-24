@@ -23,3 +23,15 @@ void Matrix::Alloc(unsigned rows, unsigned cols)
         std::cout << "erro na alocação";
     }
 }
+Matrix::~Matrix()
+{
+    for(unsigned i = 0; i <= rows; i++ )
+    {
+      delete[] Mat[i];
+    }
+    for(unsigned j = 0; j <= cols; j++)
+    {
+      delete[] Mat[j];
+    }
+    delete[] Mat;
+}
