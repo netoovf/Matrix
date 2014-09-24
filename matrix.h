@@ -9,7 +9,7 @@ class Matrix
 public:
     Matrix();
     ~Matrix();
-    void print();
+        void print();
     void Alloc(unsigned rows, unsigned cols);
 };
 
