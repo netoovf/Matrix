@@ -28,6 +28,7 @@ void Matrix::Alloc(unsigned rows, unsigned cols)
         std::cout << "erro na alocação";
     }
 }
+/*! Esta função ira apagar as posições de memoria que o usuário não utiliza mais. */
 Matrix::~Matrix()
 {
     for(unsigned i = 0; i <= rows; i++ )
